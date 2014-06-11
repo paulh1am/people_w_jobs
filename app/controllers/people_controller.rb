@@ -29,12 +29,8 @@ class PeopleController < ApplicationController
     Person.delete(params[:id])
     redirect_ to people_path
 
-<<<<<<< HEAD
-
-=======
-  private
-
   def person_params
     params.require(:person).permit(:name, :jobtitle)
->>>>>>> c0b7eed150f7e9d7d0d2dabd1303e95131ddb837
+  end
+
 end
