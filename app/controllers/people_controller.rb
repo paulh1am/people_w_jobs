@@ -9,11 +9,12 @@ class PeopleController < ApplicationController
   end
 
   def new
+    @person = Person.new #form partial
     #show a form
   end
 
   def create
-    new_person = Person.create ( person_params)
+    @person = Person.create ( person_params)
     redirect_to people_path
   end
 
