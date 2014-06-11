@@ -1,7 +1,7 @@
 class PeopleController < ApplicationController
 
   def index
-    @people = People.all
+    @people = Person.all
   end
 
   def show
@@ -29,6 +29,7 @@ class PeopleController < ApplicationController
   def destroy
     Person.delete(params[:id])
     redirect_ to people_path
+  end
 
   def person_params
     params.require(:person).permit(:name, :jobtitle)
