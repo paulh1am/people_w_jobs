@@ -28,9 +28,22 @@
 }
 
 .profile.card{
-  height:250px;
-  width: 400px;
+  height:150px;
+  width: 250px;
   background-color:#F5F5DC;
   border: 1px solid lightblue;
   border-radius: 25px;
+  font-size: 14px;
+  font-family: Arial;
+}
+
+#card-image{
+  height: 100px;
+  width: 100px;
+  margin: 20px;
+}
+
+li{
+  text-decoration: none;
+  list-style: none;
 }

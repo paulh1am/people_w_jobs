@@ -6,4 +6,4 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-nate = User.create({name: 'Nate Tuvera', jobtitle: 'Human Integreation Analyst'})
+nate = Person.create(name: 'Nate Tuvera', jobtitle: 'Human Integreation Analyst')
