@@ -1,5 +1,5 @@
 <div class ="header">
-  <h2>welcome to the premier career minded crud site</h2>
+  <h2>welcome to the premier career-minded crud site</h2>
 </div>
 
 <div class="container">
@@ -8,7 +8,13 @@
   </div>
 
   <div class="two-thirds columns display">
-
+<ul class="peopleList">
+  <% @people.each do |person| %>
+    <li>
+      <%= person.jobtitle %><a href="/people/<%= person.id %>">  :<%= person.name %></a>
+    </li>
+  <% end %>
+</ul>
   </div>
 
 
