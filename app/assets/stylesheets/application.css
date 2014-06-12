@@ -13,3 +13,24 @@
  *= require_tree .
  *= require_self
  */
+
+.header{
+  background-color:lightblue;
+}
+
+.nav{
+  background-color:#FFFAF0;
+
+}
+.display{
+  background-color:#FFFAF0;
+
+}
+
+.profile.card{
+  height:250px;
+  width: 400px;
+  background-color:#F5F5DC;
+  border: 1px solid lightblue;
+  border-radius: 25px;
+}
