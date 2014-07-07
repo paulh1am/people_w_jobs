@@ -8,7 +8,7 @@
 ![insert screen shot here](http://placekitten.com/g/500/220)
 
 
-People with (fake)Jobs is a simple one model C.R.U.D. app which employs takes in names input by the user.  Each name is then paired with a fake job/career for your entertainment.  Don't like your job? Delete yourself and randomize a new career.       
+People with (fake)Jobs is a simple one model C.R.U.D. app which takes in names input by the user.  Each name is then paired with a fake job/career for your entertainment.  Don't like your job? Delete yourself and randomize a new career.       
   <BR>
   
 
